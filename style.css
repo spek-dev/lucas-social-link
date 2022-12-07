@@ -1,0 +1,77 @@
+body {
+    background: linear-gradient(to right, #03fa6e 0%, #67fd8a 100%);
+    font-family: 'DM Sans', sans-serif;
+    text-align: center;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #65FEEC;
+}
+
+.header-image {
+    display: inline-block;
+    margin: 2rem auto;
+    width: 10rem;
+    clip-path: circle(50%);
+    background: #fff;
+}
+
+.instagram-config {
+    margin: 0.7rem 0 1rem 0;
+    line-height: 0.5;
+}
+
+.user-name {
+    color: #fff;
+    font-size: 17px;
+}
+
+.bio {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.links-container button {
+    width: 70%;
+    background: none;
+    color: #fff;
+    padding: 1rem;
+    margin: 1rem;
+    border: 1px solid #01B372;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: 500;
+    font-family: 'DM Sans', sans-serif;
+    transition: 500ms;
+}
+
+.links-container button:hover {
+    background: #fff;
+    color: #02D773;
+    transition: 500ms;
+} 
+
+.footer-image {
+    width: 10rem;
+    margin-bottom: 1rem;
+    clip-path: circle(50%);
+}
+
+.footer-link {
+    color: #fff;
+    text-decoration: none;
+    transition: 400ms;
+}
+
+.footer-link:hover {
+    color: #01b372;
+    transition: 400ms;
+}
